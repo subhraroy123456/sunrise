@@ -114,7 +114,7 @@ minusButton.addEventListener('click', (e) => {
 })
 
 incValue.addEventListener('keydown', (e) => {
-  e.preventDefault(); // Prevent all key presses
+  e.preventDefault(); 
 });
 
 const accors = document.querySelectorAll('.accor')

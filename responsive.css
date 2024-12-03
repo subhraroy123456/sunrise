@@ -40,6 +40,7 @@
     .footer-links ul li a {
         font-size: 16px;
     }
+
     .qr-sec h3 {
         font-size: 32px;
         line-height: 1.5;
@@ -90,15 +91,21 @@
 }
 
 @media (max-width: 1024px) {
-    .single-menu-price .info h6, .single-menu-price .info span {
+
+    .single-menu-price .info h6,
+    .single-menu-price .info span {
         font-size: 20px;
     }
-    .single-menu-price .total h4, .single-menu-price .total h3 {
+
+    .single-menu-price .total h4,
+    .single-menu-price .total h3 {
         font-size: 25px;
     }
+
     .footer-links ul {
         flex-direction: column;
     }
+
     .yelp-sec {
         padding: 70px 0;
     }
@@ -198,6 +205,7 @@
     .qr-sec h3 {
         font-size: 29px;
     }
+
     .menu-sec-inner {
         padding-top: 20px;
     }
@@ -207,36 +215,49 @@
     .single-accor-btns .add-to-cart-btn {
         width: 100%;
     }
+
     .reviews-page-sec {
         padding-bottom: 0;
     }
+
     .reviews-page-sec .yelp-btns {
         justify-content: flex-start;
     }
+
     .inner-hero ul li a {
-        line-height: 45px!important;
+        line-height: 45px !important;
     }
+
     .accor {
         margin-top: 20px;
     }
+
     .accor .accor-btm-inner {
         padding: 20px;
     }
+
     .accor .accor-top h4 {
         line-height: 22px;
     }
+
     .single-menu-right .top-heading h2 span {
         font-size: 26px;
     }
-    .single-menu-price .info h6, .single-menu-price .info span {
+
+    .single-menu-price .info h6,
+    .single-menu-price .info span {
         font-size: 18px;
     }
-    .single-menu-price .total h4, .single-menu-price .total h3 {
+
+    .single-menu-price .total h4,
+    .single-menu-price .total h3 {
         font-size: 20px;
     }
+
     .inner-hero ul li a {
         font-size: 20px;
     }
+
     .footer {
         clip-path: polygon(0 0, 100% 7%, 100% 100%, 0 100%);
     }
@@ -384,6 +405,7 @@
         flex-direction: column;
         gap: 12px 0;
     }
+
     .top-header .left {
         flex-direction: column;
         gap: 10px 0;

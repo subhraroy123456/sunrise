@@ -68,6 +68,17 @@ span {
     line-height: 2;
 }
 
+a.read-more {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #C13291;
+}
+
 .scrollToTopBtn {
     width: 50px;
     height: 50px;
@@ -93,31 +104,15 @@ span {
     transform: translateY(-40px);
     pointer-events: all;
 }
+
 .con-rel {
     position: relative;
 }
-/* .btnn {
-  font-family: "Jost", sans-serif;
-  font-size: 16px;
-  text-transform: uppercase;
-  color: #fff;
-  font-weight: 400;
-  background: rgb(171, 137, 101);
-  padding: 10px 30px;
-  letter-spacing: 2px;
-  border: 1px solid rgb(171, 137, 101);
-}
-
-.btnn:hover {
-  color: #fff;
-  background: transparent;
-} */
 
 .times,
 .bars {
     display: none;
 }
-
 /* GLOBAL */
 
 /* HEADER */
@@ -125,6 +120,7 @@ header {
     position: relative;
     z-index: 999990;
 }
+
 header.fixed .top-header {
     display: none;
 }
@@ -327,7 +323,10 @@ nav .container-flex ul li:hover::after {
     padding: 160px 0 240px;
     position: relative;
 }
-
+.hero .container {
+    position: relative;
+    z-index: 1;
+}
 .hero-img {
     position: absolute;
     top: 0;
@@ -428,7 +427,7 @@ nav .container-flex ul li:hover::after {
     justify-content: center;
     font-size: 50px;
     position: relative;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 .hero-btns .video::before {
@@ -560,22 +559,15 @@ nav .container-flex ul li:hover::after {
     max-width: 555px;
 }
 
-a.read-more {
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    text-transform: capitalize;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    color: #C13291;
-}
+
 .about-us a.read-more iconify-icon {
     transition: all .3s ease-in-out;
 }
+
 .about-us a.read-more:hover {
     color: #03071E;
 }
+
 .about-us a.read-more:hover iconify-icon {
     transform: translateX(4px);
 }
@@ -862,6 +854,7 @@ a.read-more {
 .menu-sec .read-more:hover {
     color: #03071E;
 }
+
 .menu-sec .read-more:hover iconify-icon {
     transform: translateX(4px);
 }
@@ -1089,24 +1082,29 @@ a.read-more {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 88%);
     padding-bottom: 120px;
 }
+
 .reviews-page-sec .yelp-btns {
     justify-content: flex-end;
 }
+
 .yelp-btns {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     gap: 0 20px;
 }
+
 .yelp-btns .secondary {
     background: transparent;
     color: #C13291;
     border-color: #C13291;
 }
+
 .yelp-btns .secondary:hover {
     background: #C13291;
     color: #fff;
 }
+
 .yelp-btn {
     font-family: Plus Jakarta Sans;
     font-style: normal;
@@ -1520,6 +1518,7 @@ a.read-more {
 .single-accor-btns .inc-icon {
     line-height: 0;
 }
+
 .single-accor-btns .add-to-cart-btn {
     min-height: 50px;
     display: flex;
@@ -1539,14 +1538,17 @@ a.read-more {
     color: #f9f0f0;
     transition: all .3s ease-in-out;
 }
+
 .single-accor-btns .add-to-cart-btn:hover {
     background: transparent;
     color: #C13291;
 }
+
 .single-accor-btns .inc-icon {
     display: flex;
     flex-direction: column;
 }
+
 .single-accor-btns .inc-icon iconify-icon {
     font-size: 20px;
     cursor: pointer;
@@ -1556,13 +1558,13 @@ a.read-more {
 /* Remove arrows for Chrome, Edge, and Safari */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 /* Remove arrows for Firefox */
 input[type="number"] {
-  -moz-appearance: textfield;
+    -moz-appearance: textfield;
 }
 
 .single-menu-sec .menu-single-top {
@@ -1571,14 +1573,17 @@ input[type="number"] {
     top: -7rem;
     animation: moveMenuTop1 infinite alternate 2s linear;
 }
+
 .related-menu {
     padding-top: 0px;
 }
+
 .related-menu .top-heading h2 {
     margin-top: 18px;
     position: relative;
     padding-bottom: 25px;
 }
+
 .related-menu .top-heading h2::after {
     content: '';
     position: absolute;
@@ -1607,6 +1612,7 @@ input[type="number"] {
     0% {
         transform: translateY(0);
     }
+
     100% {
         transform: translateY(15px);
     }
