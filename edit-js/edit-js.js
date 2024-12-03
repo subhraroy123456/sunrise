@@ -94,8 +94,6 @@ inputClose.addEventListener('click', (e) => {
 })
 
 
-
-
 const plusButton = document.querySelector('.plus')
 const minusButton = document.querySelector('.minus')
 const incValue = document.querySelector('.inc-value')
