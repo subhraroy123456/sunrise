@@ -321,7 +321,7 @@ nav .container-flex ul li:hover::after {
     background: #733BB9 url(imgs/hero-bg.png) no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 160px 0 240px;
+    padding: 150px 0 240px;
     position: relative;
 }
 .hero .container {
@@ -330,8 +330,9 @@ nav .container-flex ul li:hover::after {
 }
 .hero-img {
     position: absolute;
-    top: 0;
+    top: 50%;
     right: 0;
+    transform: translateY(-60%);
 }
 
 .hero-img-btm {
