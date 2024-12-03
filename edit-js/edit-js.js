@@ -1,3 +1,6 @@
+$('.jarallax').jarallax({
+  speed: 0.3,
+});
 const tradingLists = document.querySelectorAll('.tab')
 const topRestContents = document.querySelectorAll('.top-rest-content-outer')
 
@@ -38,7 +41,7 @@ times.addEventListener('click', (e) => {
 })
 
 window.addEventListener('scroll', (e) => {
-  if (scrollY > 0) {
+  if (scrollY > 64) {
     header.classList.add('fixed')
   }
   else {
