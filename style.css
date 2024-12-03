@@ -133,6 +133,7 @@ header.fixed nav {
     z-index: 1000000;
     background: #fff;
     padding: 5px 0;
+    box-shadow: 0 4px 100px 0 rgba(0, 0, 0, 0.15);
 }
 
 .top-header {
